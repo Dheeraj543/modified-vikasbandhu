@@ -1,0 +1,41 @@
+
+.sty{
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0;
+    padding: 3px;
+    margin: 3px;
+    color: gray;
+    font-weight: 50;
+    width: 150px;
+    border: 5em;
+    border-color: antiquewhite;
+    border-width: 1px;
+    box-shadow: 5em;
+    height: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: end;
+    color: grey;
+}
+.select{
+    display: inline-block;
+    padding-right: 4em;
+    padding-left: 1em;
+}
+.sty:hover{
+    border-color: rgb(0, 82, 150);
+    border-width: 5em;
+}
+.dashedline{
+    color: rgba(46, 46, 46, 0.133);
+    background-color: rgba(39, 39, 39, 0.067);
+}
+.menuitemcss{
+    max-width: 50px;
+}
+.ongoing{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}

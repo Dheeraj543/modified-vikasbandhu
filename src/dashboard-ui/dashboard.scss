@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+.container-fluid {
+  margin: 0px auto;
+  max-width: 1400px;
+}
+.fetch {
+  text-align: "center";
+  font-size: "25px";
+  margin-top: "120px";
+}
+.ant-layout-header {
+  padding: 0 !important;
+}
+.ant-anchor-link-title {
+  color: hsl(217, 89%, 61%) !important;
+}
+.scroll {
+  float: right;
+}
+.ant-layout {
+  background: #fff !important;
+}
+.ant-tabs-tab {
+  width: 223px;
+  border-radius: 5px 5px 0px 0px !important;
+  margin-right: 5px !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16) !important;
+  color: black !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+
+.ant-tabs-tab.custom {
+  color: white;
+  background-color: rgba(235, 111, 93, 1) !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  text-shadow: 0 0 0.25px currentColor;
+  color: black !important;
+}
+.vl {
+  border-left: 1px solid #c4c4c4;
+  height: 81px;
+  margin-right: 5px;
+}
+.ant-anchor-link a:focus::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.2rem;
+  border-radius: 10;
+  left: 0;
+  bottom: 0;
+  background: none !important;
+}
+
+.data-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.data-legend {
+  flex: 2;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.data-value {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .vl {
+    border-left: 1px solid #c4c4c4;
+    height: 81px;
+    margin: 0px;
+  }
+
+  .data-dot {
+    height: 8px;
+    width: 8px;
+    margin-right: 5px;
+  }
+
+  .data-legend {
+    font-size: 10px;
+  }
+
+  .data-value {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+}
+/* Transactions & Matches */
+.t {
+  height: 650px;
+  .cardd {
+    position: absolute;
+    width: 1320px;
+    height: 800px;
+    left: 80px;
+    background: #fff;
+    font-size: 100px;
+  }
+  .transactions {
+    position: relative;
+    width: 1320px;
+    height: 40px;
+    text-align: right;
+    background: #fff !important;
+    font-size: 16px !important;
+    display: block;
+  }
+  .ant-spin-container {
+    background-color: #fff;
+  }
+  a {
+    position: relative;
+    margin-top: 1000px !important;
+    margin-right: 100px;
+  }
+  .rowClassName1 td:first-child {
+    border-left: 6px solid #f6a041;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .rowClassName2 td:first-child {
+    border-left: 6px solid #12805c;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    text-shadow: 0 0 0.25px currentColor;
+    color: white !important;
+  }
+  .ant-tabs > .ant-tabs-nav {
+    /* So that there is no gap between the content and tabs */
+    margin-bottom: 0px !important;
+    color: #fff !important;
+  }
+  .ant-tabs-card .ant-tabs-tab,
+  [data-theme="compact"] .card-container > .ant-tabs-card .ant-tabs-tab {
+    border-color: transparent;
+  }
+  .ant-tabs-card .ant-tabs-tab-active,
+  [data-theme="compact"] .card-container > .ant-tabs-card .ant-tabs-tab-active {
+    background: #12805c !important;
+    color: #fff !important;
+    border-color: #fff;
+  }
+  .ant-table-container {
+    width: 1330px;
+  }
+  .ant-table-measure-row {
+    min-height: 0px !important;
+    display: none;
+  }
+  /* row data */
+  tbody > tr > td {
+    height: 50px !important;
+    padding: 2px 2px 2px 2px !important;
+  }
+  tbody > tr > td > p {
+    height: 20px !important;
+    padding: 0px 0px 0px 0px !important;
+  }
+  tr > td .ant-table-cell {
+    height: 84px !important;
+    padding: 0px;
+  }
+  .ant-tabs-content-holder {
+    margin-top: 0px !important;
+    border-top: 5px solid #12805c;
+  }
+  .title {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.31px !important;
+    color: black;
+  }
+  .title1 {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.31px !important;
+    color: black;
+  }
+  .ant-table {
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 140.62% !important;
+  }
+
+  .ant-table-thead .ant-table-cell {
+    background: #c4c4c4 !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+    line-height: 140.62% !important;
+    border-radius: 2px 2px 0px 0px !important;
+  }
+
+  div .ant-tabs-content .ant-tabs-content-top {
+    background: #c4c4c4 !important;
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 140.62% !important;
+    border-radius: 5px 5px 0px 0px !important;
+  }
+  .ant-table-row .ant-table-row-level-0 {
+    height: 5px !important;
+  }
+  .ant-pagination .ant-table-pagination .ant-table-pagination-right {
+    display: none !important;
+  }
+}
+
+/* Matches Transactions Produces */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+.match
+{
+  .ant-tabs
+  {
+  width: 90%;
+  height: 60%;
+  margin-left: 5% !important;
+  }  
+@media only screen and (max-width: 800px) {
+      .ant-tabs
+      {
+      width: 100%;
+      height: 60%;
+      margin-left: 0% !important;
+      }  
+      .check{
+        display: none;
+      }
+      .checkk{
+        display: none;
+      }
+      .title
+      {
+        margin-top :100px !important;
+        margin-left:5%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25.31px !important;
+        color:black;    
+      }
+  }
+.check{
+  position: absolute;
+width: 200px;
+height: 16px;
+left: 550px;
+top: 220px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #272727;
+}
+
+.checkk {
+  position: absolute;
+  width: 200px;
+  height: 16px;
+  left: 675px;
+  top: 220px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.buttonsWrapper {
+  width: 250px;
+  display: 'flex';
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ant-table
+{
+  font-family: Roboto !important;
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 16px !important;
+line-height: 140.62% !important;
+}
+.title
+{
+margin-top:7%;
+margin-left:5%;
+font-family: Roboto;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 25.31px !important;
+color:black;
+}
+.ant-table-thead .ant-table-cell
+{
+background:#C4C4C4!important;
+font-family: Roboto !important;
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 17px !important;
+line-height: 140.62% !important;
+border-radius: 2px 2px 0px 0px!important;
+}
+.ant-tabs-ink-bar .ant-tabs-ink-bar-animated
+{
+  border-top: 10px solid #12805C !important;
+  display:none;
+}
+div .ant-tabs-content .ant-tabs-content-top
+{
+  background:#C4C4C4!important;
+font-family: Roboto !important;
+font-style: normal !important;
+font-weight: normal !important;
+font-size: 14px !important;
+line-height: 140.62% !important;
+border-radius: 5px 5px 0px 0px!important;
+}
+.ant-table-row .ant-table-row-level-0
+{
+  height: 5px !important;
+}
+.a{
+  position: relative;
+  margin-top:1000px !important; 
+  margin-right:100px;
+}
+  .rowClassName1 td:first-child {
+    border-left:6px solid #F6A041 ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .rowClassName2 td:first-child {
+    border-left:6px solid #12805C ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    }
+        
+.ant-tabs > .ant-tabs-nav { /* So that there is no gap between the content and tabs */
+  margin-bottom: 0px !important;
+  color:#fff !important;
+}
+.ant-table-measure-row
+{
+  min-height:0px !important;
+  display:none;
+}
+/* row data */
+tbody > tr > td {
+  height: 74px !important;
+  padding: 2px 2px 2px 2px !important;
+}
+
+tbody > tr > td >p {
+  height: 20px !important;
+  padding: 0px 0px 0px 0px !important;
+}
+tr > td .ant-table-cell 
+{
+  height: 84px !important;
+  padding: 0px; 
+}
+.ant-tabs-content-holder {
+  /* padding: 15px; */
+  margin-top: 0px !important;
+  border-top: 5px solid #12805C;
+}
+.ant-tabs-card .ant-tabs-tab-active,
+  [data-theme="compact"] .card-container > .ant-tabs-card .ant-tabs-tab-active {
+    background: #12805c !important;
+    color: #fff !important;
+    border-color: #fff;
+  }
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    text-shadow: 0 0 0.25px currentColor;
+    color: white !important;
+  }
+}
+/* Only Produces */
+.produce
+{
+    .produces
+    {
+    margin-top: 10px; 
+    width: 172px;
+    margin-left: 75px;
+    color: #6F6B6B;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140.62%;
+    }
+    .allprod
+    {
+        margin-top: 10px; 
+        width: 221px;
+        background-color: #12805C; 
+        color: white;
+        margin-left: 75px;
+        height: 40px;
+        border-radius: 3px; 
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px; 
+        line-height: 140.62%;
+        text-align: center;
+    }
+    .prodtitle
+    {
+        width: 357px;
+        height: 28px;
+        margin-left: 75px;
+        margin-top: 100px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight:800;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        
+    }
+}
